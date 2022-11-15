@@ -56,7 +56,6 @@ export default function Home() {
 
 const Section = styled.section`
     margin: 0.5rem;
-    background-color: #232835;
     border-radius: 1rem;
     position:relative;
     margin-bottom: 5rem;

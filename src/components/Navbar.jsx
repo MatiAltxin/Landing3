@@ -59,8 +59,6 @@ const Nav = styled.nav`
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
-    clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%);
     padding: 2.5rem 8rem;
     ul {
       display: flex;
@@ -68,7 +66,9 @@ const Nav = styled.nav`
       gap: 3rem;
       li {
         a {
-          color: #002000;
+          color: white;
+          font-weight: 600;
+          font-size: 1.1rem;
           text-decoration: none;
           transition: 0.4s ease-in-out;
           &:hover {

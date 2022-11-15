@@ -125,8 +125,8 @@ const Section = styled.section`
     justify-content: center;
     gap: 2rem;
     button:not(.blue) {
-      color: black;
-      border-color: #7b7e86;
+      color: white;
+      border: 2px solid #7b7e86;
     }
   }
   .marketPlaces {
@@ -134,7 +134,7 @@ const Section = styled.section`
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
     .marketplace {
-      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      background-color: #ffff;
       padding: 0.5rem;
       border-radius: 1rem;
       width: max-content;

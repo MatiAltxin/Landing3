@@ -45,10 +45,12 @@ const Section = styled.section`
     gap: 3rem;
     h2 {
       font-size: 4rem;
+      color: white;
     }
     p {
       color: #7b7e86;
       line-height: 2rem;
+      color: white;
     }
   }
   @media screen and (min-width: 280px) and (max-width: 1080px) {

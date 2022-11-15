@@ -38,6 +38,7 @@ const Section = styled.section`
     display: flex;
     justify-content: center;
     flex-direction: column;
+    color: white;
     gap: 3rem;
     /* width: 50%; */
     h2 {
@@ -48,6 +49,7 @@ const Section = styled.section`
       line-height: 2rem;
     }
     .input-container {
+      background-color: #ffff;
       padding: 0.5rem;
       display: flex;
       justify-content: center;
